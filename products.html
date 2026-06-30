@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="俊杰产品资料：中间体目录、结构式、理化性质与供货信息。" />
+    <title>产品资料 | 俊杰</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header is-scrolled" data-header>
+      <a class="brand" href="index.html" aria-label="俊杰 首页"><span><strong data-i18n="brandName">俊杰</strong><small data-i18n="brandTag">Intermediates Export</small></span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="打开导航"><span></span><span></span><span></span></button>
+      <nav class="nav" data-nav>
+        <a href="index.html" data-i18n="navHome">主页</a><a href="company.html" data-i18n="navCompany">公司介绍</a><a class="nav-current" href="products.html" data-i18n="navProducts">产品资料</a><a href="rd-quality.html" data-i18n="navRd">研发和质量</a><a href="about.html" data-i18n="navAbout">关于我们</a><a href="contact.html" data-i18n="navContact">联系我们</a><a class="nav-cta" href="faq.html" data-i18n="navFaq">常见问题</a>
+        <div class="language-switch" aria-label="语言切换"><button type="button" data-lang-switch="zh">中</button><button type="button" data-lang-switch="en">EN</button></div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="section page-section" id="products">
+        <div class="section-inner">
+          <div class="section-heading"><p class="section-kicker">Product Data</p><h1 class="page-title" data-i18n="productsTitle">产品资料</h1><p data-i18n="productsCopy">以下为精简产品目录，可按 CAS、产品名称、纯度、库存状态或定制需求快速筛选；点击产品进入独立详情页查看结构式和理化性质。</p></div>
+          <div class="catalog-summary">
+            <div><strong>31</strong><span data-i18n="summaryProducts">目录产品</span></div>
+            <div><strong>98-99%</strong><span data-i18n="summaryPurity">常规纯度</span></div>
+            <div><strong data-i18n="summaryStatusValue">现货 / 定制</strong><span data-i18n="summaryStatus">供应状态</span></div>
+            <div><strong>2-20 t</strong><span data-i18n="summaryCapacity">部分产品月产能</span></div>
+          </div>
+          <div class="catalog-toolbar">
+            <label class="catalog-search"><span data-i18n="searchLabel">产品搜索</span><input type="search" placeholder="输入产品名称、CAS、In stock 或 Made-to-order" data-product-search data-i18n-placeholder="searchPlaceholder" /></label>
+            <a class="button catalog-download" href="俊杰产品目录_英文版.doc" download data-i18n="downloadCatalog">下载英文目录</a>
+          </div>
+          <div class="product-list" data-product-list aria-label="俊杰独立产品展示"></div>
+          <p class="product-empty" data-product-empty data-i18n="productNoResults" hidden>没有找到匹配产品。</p>
+          <div class="product-note"><span data-i18n="productDataNote">结构式和理化性质来自 PubChem 公开化学数据，供研发与采购初筛参考；商业订单以 COA/MSDS 和最终规格确认为准。</span></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div class="section-inner footer-inner"><span data-i18n="footerCompany">俊杰</span><span data-i18n="footerTag">Fine chemicals · Intermediates · Global trade</span></div></footer>
+    <script src="product-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
